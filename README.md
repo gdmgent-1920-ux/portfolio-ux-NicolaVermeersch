@@ -1,8 +1,8 @@
 # UX portfolio template 1920
 
-## Name:
+## Name: Vermeersch Nicola
 
-## Group:
+## Group: AVDb
 
 ## Getting Started
 
