@@ -36,7 +36,7 @@ const data = {
             {
                 "text": "Adobe XD Prototype",
                 "title": "Mijn Adobe XD prototype (share link)",
-                "href": "https://xd.adobe.com/view/a6e937ce-81ce-4212-58ac-40f8fae4d8be-d0d8/",
+                "href": "https://xd.adobe.com/view/aed90792-4fb6-48d0-6920-e04cf901c64d-d8e8/",
                 "target": "_blank"
             }
         ]
