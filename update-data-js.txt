@@ -1,0 +1,30 @@
+ /**
+  * Assignment 3
+  */
+
+"assignment3": {
+    "buttons": [
+        {
+            "text": "Researchdocument",
+            "title": "Mijn PDF met research",
+            "href": "./assignments/assignment3/documents/a3-research.pdf",
+            "target": "_blank"
+        },
+        {
+            "text": "Adobe XD (met Wireframes)",
+            "title": "Mijn Adobe XD document met de wireframes van mijn applicatie",
+            "href": "./assignments/assignment3/documents/a3-wireframes.xd",
+        },
+        {
+            "text": "Adobe XD (met Visual Designs)",
+            "title": "Mijn Adobe XD document voor de visual designs van mijn applicatie",
+            "href": "./assignments/assignment3/documents/a3-visual-designs.xd",
+        },
+        {
+            "text": "Website",
+            "title": "Mijn website voor opdracht 3",
+            "href": "./assignments/assignment3/website/index.html",
+            "target": "_blank"
+        }
+    ]
+},
