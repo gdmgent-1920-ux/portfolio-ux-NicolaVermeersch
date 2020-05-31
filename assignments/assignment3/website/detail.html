@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e53b0f8aba.js" crossorigin="anonymous"></script>
+    <script>
+        /*HAMBURGER ICON*/
+
+        const toggleNavigationIcon = (navToggler) => {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('toggled');
+            navToggler.classList.toggle('toggled');
+        }
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header container-fluid ">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 logo">
+                    <a href="./HOMEPAGE.html">
+                        <p>Lightly</p>
+                    </a>
+                </div>
+                <div class="col-7">
+                    <div class="row align-items-right">
+                        <div class="nav-links">
+                            <ul>
+                                <li class="text">
+                                    <a href="./shop.html">SHOP</a>
+                                </li>
+                                <li class="text">
+                                    <a href="./over.html">ABOUT</a>
+                                </li>
+                                <li class="text">
+                                    <a href="./contact.html">CONTACT</a>
+                                </li>
+                                <li class="text">
+                                    <a href="./faqs.html">FAQs</a>
+                                </li>
+                                <li class="icons">
+                                    <a href="./account.html">
+                                        <i class="icon-header" id="account"> <img src="images/account.png"
+                                                alt="account"> </i>
+                                    </a>
+                                </li>
+                                <li class="icons">
+                                    <a href="./zoeken.html">
+                                        <i class="icon-header" id="search"> <img src="images/search.png"
+                                                alt="search"></i>
+                                    </a>
+                                </li>
+                                <li class="icons">
+                                    <a href="./winkelwagen.html">
+                                        <i class="icon-header" id="winkelwagen"> <img src="images/shop.png"
+                                                alt="winkelwagen"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-toggler" onclick="toggleNavigationIcon(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="row image-height">
+                <div class="col-7" id="container">
+                    <img id="image" src="images/detail_main.jpg">
+                </div>
+                <div class="col-5">
+                    <div class="row">
+                        <div class="col-12 titel-product-detail">
+                            <h1>Glazen hanglamp</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <div class="col-6 reviews">
+                            <p>0 Reviews</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 prijs-product">
+                            <p id="prijs">€ 159,95</p>
+                        </div>
+                    </div>
+                    <div class="row counter-detail">
+                        <div class="col-5 qty">
+                            <span class="minus">-</span>
+                            <input class="count" type="number" name="qty" value="1" />
+                            <span class="plus">+</span>
+                        </div>
+                    </div>
+                    <div class="row in-winkelwagen">
+                        <a class="col-10 full" href="winkelwagen.html">
+                            in winkelwagen
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2 voor-image-sub">
+                    <img src="images/detail_sub1.jpg" alt="sub1">
+                </div>
+                <div class="col-2 image-sub">
+                    <img src="images/detail_sub2.jpg" alt="sub2">
+                </div>
+                <div class="col-2 na-image-sub">
+                    <img src="images/detail_sub3.jpg" alt="sub3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 titel-beschrijving">
+                    <h1>Beschrijving</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8 beschrijving">
+                    <p>
+                        Deze 3-lichts hanglamp 'shaded' is uitgevoerd in verchroomd glas. De lampenkappen hebben
+                        daardoor
+                        een grijsachtige kleur. De glazen kappen hebben verder een diameter van 32 centimeter. De
+                        plafondbevestiging is gemaakt van metaal met een oude zilveren afwerking.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 uniek">
+                    <h2>Unieke productkenmerken</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5 list-kenmerken">
+                    <ul>
+                        <li>Geschikt voor toepassing met LED lichtbron</li>
+                        <li>Deze lamp is in hoogte verstelbaar</li>
+                        <li>Eenvoudig aan te sluiten op een dimmer (excl.)</li>
+                        <li>Vervaardigd uit hoogwaardig metaal</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 belangrijk">
+                    <h2>Belangrijke productkenmerken</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5 list-garantie">
+                    <ul>
+                        <li>Verbruik: 3x40W / 230V / A++ - E (excl.) - Dimbaar</li>
+                        <li>Afmetingen: 114x30 cm \ H.150 cm max.</li>
+                        <li>2 Jaar garantie op het armatuur</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+		<div class="container">
+			<div class="row titles-footer no-gutters">
+				<div class="col-4 logo-footer">
+					<a class="logo-back" href="./HOMEPAGE.html">
+						<h2>Lightly</h2>
+					</a>
+					<div class="row adress-footer">
+						<div class="col-12 adress-footer-text">
+							<p>NV - Slekkebeek 72 - 9230 Wetteren
+								+32499743594
+								nicoverm@student.arteveldehs.be
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 volg-ons-footer">
+					<h2>Volg ons</h2>
+					<div class="row">
+						<div class="col-6 facebook">
+							<a href="https://www.facebook.com/nicola.vermeersch">
+								<i class="icon-facebook"> <img src="images/facebook.png" alt="fb"> </i>
+							</a>
+						</div>
+						<div class="col-6 instagram">
+							<a href="https://www.instagram.com/nicolavermeersch/">
+								<i class="icon-instagram"> <img src="images/instagram.png" alt="ig"> </i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-4 klantenservice-footer">
+					<h2>Klantenservice</h2>
+					<div class="row">
+						<div class="col-12">
+							<a href="over.html">
+								<p>Over ons</p>
+							</a>
+							<a href="faqs.html">
+								<p>FAQs</p>
+							</a>
+							<a href="404.html">
+								<p>Contact</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <script src="script/counter.js"></script>
+</body>
+
+</html>
