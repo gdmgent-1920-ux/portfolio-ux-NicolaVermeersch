@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap"rel="stylesheet">
+    <title>Zoeken</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row cross">
+            <div class="col-1 col-md-1 col-lg-1 kruis">
+                <a href="javascript:history.back()" id="back" class="close"></a> 
+            </div>
+        </div>
+        <div class="row zoekbalk-center">
+            <div class="col-5 col-md-3 col-lg-3 zoekbalk">
+                <form >
+                  <div class="form-control">
+                    <input type="text" class="input" placeholder="Zoeken..." onkeypress=redirect(event)>
+                  </div>
+                </form>
+            </div>
+            <div class="col-2 col-md-1 col-lg-1 icon-achtergrond">
+                <a href="shop.html" class="zoek-icoon" id="icoon"></a>
+            </div>
+        </div>
+    </div>
+<script src="script/script.js"></script>
+</body>
+
+</html>
