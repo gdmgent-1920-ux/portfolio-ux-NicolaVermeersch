@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/logo.png">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap"
+		rel="stylesheet">
+	<script>
+		/*HAMBURGER ICON*/
+
+		const toggleNavigationIcon = (navToggler) => {
+			const navLinks = document.querySelector('.nav-links');
+			navLinks.classList.toggle('toggled');
+			navToggler.classList.toggle('toggled');
+		}
+	</script>
+	<title>Account</title>
+</head>
+
+<body class="account">
+	<div class="header container-fluid ">
+		<div class="container">
+			<div class="row">
+				<div class="col-5 logo">
+					<a href="./HOMEPAGE.html">
+						<p>Lightly</p>
+					</a>
+				</div>
+				<div class="col-7">
+					<div class="row align-items-right">
+						<div class="nav-links">
+							<ul>
+								<li class="text">
+									<a href="./shop.html">SHOP</a>
+								</li>
+								<li class="text">
+									<a href="./over.html">ABOUT</a>
+								</li>
+								<li class="text">
+									<a href="./contact.html">CONTACT</a>
+								</li>
+								<li class="text">
+									<a href="./faqs.html">FAQs</a>
+								</li>
+								<li class="icons">
+									<a href="./account.html">
+										<i class="icon-header" id="account"> <img src="images/account.png"
+												alt="account"> </i>
+									</a>
+								</li>
+								<li class="icons">
+									<a href="./zoeken.html">
+										<i class="icon-header" id="search"> <img src="images/search.png"
+												alt="search"></i>
+									</a>
+								</li>
+								<li class="icons">
+									<a href="./leeg.html">
+										<i class="icon-header" id="winkelwagen"> <img src="images/shop.png"
+												alt="winkelwagen"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="nav-toggler" onclick="toggleNavigationIcon(this)">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<main>
+		<div class="container-account">
+			<div class="row">
+				<div class="col-10 col-md-4 col-lg-4 contact-form">
+					<img src="images/account.png" class="avatar">
+					<h2>Inloggen</h2>
+					<form>
+						<input class="margin-top" type="text" name="" placeholder="Email">
+						<input class="margin-down" type="password" name="" placeholder="Wachtwoord">
+						<input class="customCheckbox" type="checkbox" id="rememberMe">
+						<label for="rememberMe">Remember Me</label>
+					</form>
+					<div class="row inloggen-center">
+						<div class="col-11 inloggen-btn ">
+							<a class="inloggen" href="HOMEPAGE.html">Inloggen</a>
+						</div>
+					</div>
+					<div class="row forgot-password-center">
+						<div class="col-11 forgot-password">
+							<a class="forgot-password-link" href="404.html">wachtwoord vergeten?</a>
+						</div>
+					</div>
+					<div class="row of-center">
+						<div class="col-11 of">
+							<p>of</p>
+						</div>
+					</div>
+					<div class="row geen-account-center">
+						<div class="col-11 geen-account">
+							<a class="geen-account-link" href="404.html">nog geen account?</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer-account">
+		<div class="container">
+			<div class="row titles-footer no-gutters">
+				<div class="col-12 col-md-4 col-lg-4 logo-footer">
+					<a class="logo-back" href="./HOMEPAGE.html">
+						<h2>Lightly</h2>
+					</a>
+					<div class="row adress-footer">
+						<div class="col-12 adress-footer-text">
+							<p>NV - Slekkebeek 72 - 9230 Wetteren
+								+32499743594
+								nicoverm@student.arteveldehs.be
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 volg-ons-footer">
+					<h2>Volg ons</h2>
+					<div class="row">
+						<div class="col-3 col-md-4 col-lg-6 facebook">
+							<a href="https://www.facebook.com/nicola.vermeersch">
+								<i class="icon-facebook"> <img src="images/facebook.png" alt="fb"> </i>
+							</a>
+						</div>
+						<div class="col-9 col-md-8 col-lg-6 instagram">
+							<a href="https://www.instagram.com/nicolavermeersch/">
+								<i class="icon-instagram"> <img src="images/instagram.png" alt="ig"> </i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 klantenservice-footer">
+					<h2>Klantenservice</h2>
+					<div class="row">
+						<div class="col-12 klantenservice-footer-tekst">
+							<a href="over.html">
+								<p>Over ons</p>
+							</a>
+							<a href="faqs.html">
+								<p>FAQs</p>
+							</a>
+							<a href="contact.html">
+								<p>Contact</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
