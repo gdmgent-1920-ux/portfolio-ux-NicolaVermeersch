@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e53b0f8aba.js" crossorigin="anonymous"></script>
+    <title>Wandlampen</title>
+</head>
+
+<body>
+    <div class="header container-fluid ">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 logo">
+                    <a href="./HOMEPAGE.html">
+                        <p>Lightly</p>
+                    </a>
+                </div>
+                <div class="col-7">
+                    <div class="row align-items-right">
+                        <div class="nav-links">
+                            <ul>
+                                <li class="text">
+                                    <a href="./shop.html">SHOP</a>
+                                </li>
+                                <li class="text">
+                                    <a href="./over.html">ABOUT</a>
+                                </li>
+                                <li class="text">
+                                    <a href="./contact.html">CONTACT</a>
+                                </li>
+                                <li class="text">
+                                    <a href="./faqs.html">FAQs</a>
+                                </li>
+                                <li class="icons">
+                                    <a href="./account.html">
+                                        <i class="icon-header" id="account"> <img src="images/account.png"
+                                                alt="account"> </i>
+                                    </a>
+                                </li>
+                                <li class="icons">
+                                    <a href="./zoeken.html">
+                                        <i class="icon-header" id="search"> <img src="images/search.png"
+                                                alt="search"></i>
+                                    </a>
+                                </li>
+                                <li class="icons">
+                                    <a href="./leeg.html">
+                                        <i class="icon-header" id="winkelwagen"> <img src="images/shop.png"
+                                                alt="winkelwagen"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-toggler" onclick="toggleNavigationIcon(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row categoriën-onder">
+            <div class="col-5 col-md-3 col-lg-3 categoriën">
+                <ul>
+                    <li>
+                        <a class="categoriën-link " href="#">
+                            categoriën
+                            <i class="dropdown-icon fas fa-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown">
+                            <li> <a href="wandlampen.html">
+                                    <p class="text-voor">Wandlampen</p>
+                                </a> </li>
+                            <li> <a href="hanglampen.html">
+                                    <p>Hanglampen</p>
+                                </a> </li>
+                            <li> <a href="tafellampen.html">
+                                    <p>Tafellampen</p>
+                                </a> </li>
+                            <li> <a href="vloerlampen.html">
+                                    <p>Vloerlampen</p>
+                                </a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <main>
+            <div class="row list-all-products">
+                <div class="col-10 col-md-4 col-lg-4 voor-all-products-card">
+                    <a href="detail.html">
+                        <img src="images/zwarte_wandlamp.jpg" alt="zwarte_wandlamp">
+                        <p>
+                            Zwarte wandlamp <br> € 22,95
+                        </p>
+                    </a>
+                </div>
+                <div class="col-10 col-md-4 col-lg-4 all-products-card">
+                    <a href="detail.html">
+                        <img src="images/old_school.jpg" alt="curly_wandlamp">
+                        <p>
+                            Old school <br> wandlamp <br> € 25,95
+                        </p>
+                    </a>
+                </div>
+                <div class="col-10 col-md-4 col-lg-4 na-all-products-card">
+                    <a href="detail.html">
+                        <img src="images/wandlamp_draad.jpg" alt="bronzen">
+                        <p>
+                            wandlamp <br> met draad <br> € 21,95
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <div class="row list-all-products">
+                <div class="col-10 col-md-4 col-lg-4 voor-all-products-card">
+                    <a href="detail.html">
+                        <img src="images/curly_wandlamp_ijzer.jpg" alt="vloerlamp_riet">
+                        <p>
+                            Curly wandlamp <br>ijzeren frame <br> € 35,95
+                        </p>
+                    </a>
+                </div>
+                <div class="col-10 col-md-4 col-lg-4  all-products-card">
+                    <a href="detail.html">
+                        <img src="images/curly_wandlamp.jpg" alt="curly_wandlamp">
+                        <p>
+                            Curly wandlamp <br> € 25,95
+                        </p>
+                    </a>
+                </div>
+                <div class="col-10 col-md-4 col-lg-4  empty-slot"></div>
+            </div>
+        </main>
+        <footer class="footer-shop">
+            <div class="container">
+                <div class="row titles-footer no-gutters">
+                    <div class="col-12 col-md-4 col-lg-4 logo-footer">
+                        <a class="logo-back" href="./HOMEPAGE.html">
+                            <h2>Lightly</h2>
+                        </a>
+                        <div class="row adress-footer">
+                            <div class="col-12 adress-footer-text">
+                                <p>NV - Slekkebeek 72 - 9230 Wetteren
+                                    +32499743594
+                                    nicoverm@student.arteveldehs.be
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 volg-ons-footer">
+                        <h2>Volg ons</h2>
+                        <div class="row">
+                            <div class="col-3 col-md-4 col-lg-6 facebook">
+                                <a href="https://www.facebook.com/nicola.vermeersch">
+                                    <i class="icon-facebook"> <img src="images/facebook.png" alt="fb"> </i>
+                                </a>
+                            </div>
+                            <div class="col-3 col-md-4 col-lg-6 instagram">
+                                <a href="https://www.instagram.com/nicolavermeersch/">
+                                    <i class="icon-instagram"> <img src="images/instagram.png" alt="ig"> </i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-4 klantenservice-footer">
+                        <h2>Klantenservice</h2>
+                        <div class="row">
+                            <div class="col-12">
+                                <a href="over.html">
+                                    <p>Over ons</p>
+                                </a>
+                                <a href="faqs.html">
+                                    <p>FAQs</p>
+                                </a>
+                                <a href="contact.html">
+                                    <p>Contact</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            document.querySelectorAll(".dropdown-icon").forEach(function (dropdown) {
+                dropdown.addEventListener("click", function (e) {
+                    e.target.closest('li').classList.toggle('toggle');
+                });
+            });
+
+            /*HAMBURGER ICON*/
+            const toggleNavigationIcon = (navToggler) => {
+                const navLinks = document.querySelector('.nav-links');
+                navLinks.classList.toggle('toggled');
+                navToggler.classList.toggle('toggled');
+            }
+        </script>
+</body>
+
+</html>
