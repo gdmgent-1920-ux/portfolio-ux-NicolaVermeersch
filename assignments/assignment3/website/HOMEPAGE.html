@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/logo.png">
+	<link rel="stylesheet" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap"
+		rel="stylesheet">
+	<script>
+		/*HAMBURGER ICON*/
+
+		const toggleNavigationIcon = (navToggler) => {
+			const navLinks = document.querySelector('.nav-links');
+			navLinks.classList.toggle('toggled');
+			navToggler.classList.toggle('toggled');
+		}
+	</script>
+	<title>Lightly</title>
+</head>
+
+<body class="homepage">
+	<div class="header container-fluid">
+		<div class="container">
+			<div class="row no no-gutters">
+				<div class="col-5 logo">
+					<a href="./HOMEPAGE.html">
+						<p>Lightly</p>
+					</a>
+				</div>
+				<div class="col-7">
+					<div class="row align-items-right">
+						<div class="nav-links">
+							<ul>
+								<li class="text">
+									<a href="./shop.html">SHOP</a>
+								</li>
+								<li class="text">
+									<a href="./over.html">ABOUT</a>
+								</li>
+								<li class="text">
+									<a href="./contact.html">CONTACT</a>
+								</li>
+								<li class="text">
+									<a href="./faqs.html">FAQs</a>
+								</li>
+								<li class="icons">
+									<a href="./account.html">
+										<i class="icon-header" id="account"> <img src="images/account.png"
+												alt="account"> </i>
+									</a>
+								</li>
+								<li class="icons">
+									<a href="./zoeken.html">
+										<i class="icon-header" id="search"> <img src="images/search.png"
+												alt="search"></i>
+									</a>
+								</li>
+								<li class="icons">
+									<a href="./leeg.html">
+										<i class="icon-header" id="winkelwagen"> <img src="images/shop.png"
+												alt="winkelwagen"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="nav-toggler" onclick="toggleNavigationIcon(this)">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<main>
+		<div class="slideshow-container">
+			<div class="row">
+				<div class="col-12 slider">
+					<div class="mySlides fade">
+						<img src="images/header_1.jpg" alt="1">
+					</div>
+
+					<div class="mySlides fade">
+						<img src="images/header_2.jpg" alt="2">
+					</div>
+
+					<div class="mySlides fade">
+						<img src="images/header_3.jpg" alt="3">
+					</div>
+
+					<div class="mySlides fade">
+						<img src="images/header_4.jpg" alt="4">
+					</div>
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row title-center">
+					<div class="col-8 col-md-6 col-lg-6 main-title">
+						<h1>Wat voor product zoek je?</h1>
+					</div>
+				</div>
+				<div class="row categorie-icoon">
+					<div class="col-8 col-md-6 col-lg-2 card-categorie">
+						<a href="wandlampen.html">
+							<img src="images/wand.png" alt="wandlampen">
+							<p>Wandlampen</p>
+						</a>
+					</div>
+					<div class="col-8 col-md-6 col-lg-2 card-categorie">
+						<a href="hanglampen.html">
+							<img class="hang" src="images/plafond.png" alt="hanglampen">
+							<p>Hanglampen</p>
+						</a>
+					</div>
+					<div class="col-8 col-md-6 col-lg-2 card-categorie-tafel">
+						<a href="tafellampen.html">
+							<img class="tafel" src="images/tafel.png" alt="tafellampen">
+							<p class="tafel-tekst">Tafellampen</p>
+						</a>
+					</div>
+					<div class="col-8 col-md-6 col-lg-2 card-categorie-vloer">
+						<a href="vloerlampen.html">
+							<img class="vloer" src="images/staan.png" alt="Staanlampen">
+							<p class="vloerlampen">vloerlampen</p>
+						</a>
+					</div>
+				</div>
+				<div class="row all-products-center">
+					<div class="col-5 col-md-3 col-lg-2 all-products-btn ">
+						<a class="all-products" href="shop.html">View all products</a>
+					</div>
+				</div>
+				<div class="row bestsellers-title-center">
+					<div class="col-7 col-md-6 col-lg-4 bestellers-title">
+						<p>BESTELLERS</p>
+					</div>
+				</div>
+				<div class="row bestellers-products">
+					<div class="col-10 col-md-4 col-lg-4 voor-bestellers-card">
+						<a href="detail.html">
+							<img src="images/curly_wandlamp.jpg" alt="curly_wandlamp">
+							<p>
+								Curly wandlamd <br> € 25,95
+							</p>
+						</a>
+					</div>
+					<div class="col-10 col-md-4 col-lg-4 bestellers-card">
+						<a href="detail.html">
+							<img src="images/vloerlamp_hout.jpg" alt="staanlamp">
+							<p>
+								Led vloerlamp <br> (hout) <br> € 174,95
+							</p>
+						</a>
+					</div>
+					<div class="col-10 col-md-4 col-lg-4 na-bestellers-card">
+						<a href="detail.html">
+							<img src="images/bronzen_hanglamp.jpg" alt="bronzen">
+							<p>
+								Bronzen hanglamp <br> € 149,95
+							</p>
+						</a>
+					</div>
+				</div>
+				<div class="row aanbevolen-title-center">
+					<div class="col-7 col-md-6 col-lg-4 aanbevolen-title">
+						<p>AANBEVOLEN PRODUCTEN</p>
+					</div>
+				</div>
+				<div class="row bestellers-products">
+					<div class="col-10 col-md-4 col-lg-4 voor-bestellers-card">
+						<a href="detail.html">
+							<img src="images/glazen.jpg" alt="glazen_hanglamp">
+							<p>
+								Glazen hanglamp <br> € 159,95
+							</p>
+						</a>
+					</div>
+					<div class="col-10 col-md-4 col-lg-4  bestellers-card">
+						<a href="detail.html">
+							<img src="images/zwarte_tafellamp.jpg" alt="zwarte_tafellamp">
+							<p>
+								Zwarte tafellamp <br> € 24,95
+							</p>
+						</a>
+					</div>
+					<div class="col-10 col-md-4 col-lg-4  na-bestellers-card">
+						<a href="detail.html">
+							<img src="images/vloerlamp_riet.jpg" alt="vloerlamp_riet">
+							<p>
+								Vloerlamp <br> riet <br> € 89,95
+							</p>
+						</a>
+					</div>
+				</div>
+				<div class="row news-title">
+					<div class="col-7 col-md-6 col-lg-4 aanbevolen-title">
+						<p>LATEST NEWS</p>
+					</div>
+				</div>
+				<div class="row latest-news">
+					<div class="col-10 col-md-4 col-lg-4  voor-latest-news-card">
+						<img src="images/news_1.jpg" alt="artikel_1">
+						<h3>New Vintage <br> Technology</h3>
+						<p>
+							We hebben een unieke technologie ontwikkeld om LED chips verticaal in een lamp te plaatsen
+							om zo de verlichting van een ouderwetse gloeilamp na te bootsen.
+						</p>
+					</div>
+					<div class="col-10 col-md-4 col-lg-4  na-latest-news-card">
+						<img src="images/news_2.jpg" alt="artikel_2">
+						<h3>Setting the mood was never so easy.</h3>
+						<p>
+							Ontdek onze nieuwe smart en vintage  lightbulb. Maak meteen ambiance door deze lightbulb via onze app te gebruiken.
+						</p>
+					</div>
+				</div>
+			</div>
+	</main>
+	<footer class=" footer-homepage">
+		<div class="container">
+			<div class="row titles-footer no-gutters">
+				<div class="col-12 col-md-4 col-lg-4 logo-footer">
+					<a class="logo-back" href="./HOMEPAGE.html">
+						<h2>Lightly</h2>
+					</a>
+					<div class="row adress-footer">
+						<div class="col-12 adress-footer-text">
+							<p>NV - Slekkebeek 72 - 9230 Wetteren
+								+32499743594
+								nicoverm@student.arteveldehs.be
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 volg-ons-footer">
+					<h2>Volg ons</h2>
+					<div class="row">
+						<div class="col-3 col-md-4 col-lg-6 facebook">
+							<a href="https://www.facebook.com/nicola.vermeersch">
+								<i class="icon-facebook"> <img src="images/facebook.png" alt="fb"> </i>
+							</a>
+						</div>
+						<div class="col-9 col-md-8 col-lg-6 instagram">
+							<a href="https://www.instagram.com/nicolavermeersch/">
+								<i class="icon-instagram"> <img src="images/instagram.png" alt="ig"> </i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-4 col-lg-4 klantenservice-footer">
+					<h2>Klantenservice</h2>
+					<div class="row">
+						<div class="col-12 klantenservice-footer-tekst">
+							<a href="over.html">
+								<p>Over ons</p>
+							</a>
+							<a href="faqs.html">
+								<p>FAQs</p>
+							</a>
+							<a href="contact.html">
+								<p>Contact</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="script/script.js"></script>
+</body>
+
+</html>
