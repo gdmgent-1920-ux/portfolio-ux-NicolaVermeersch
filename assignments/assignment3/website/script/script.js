@@ -28,7 +28,7 @@ function redirect(e){
   if(e.keyCode === 13) {
     e.preventDefault(); 
 
-    window.location.replace("file:///C:/Users/Gebruiker/Documents/AVD/UX/portfolio/unweb%20your%20site/coderen/shop.html");
+    window.location.replace("shop.html");
   }
 }
 
