@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vidaloka&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script>
+        /*HAMBURGER ICON*/
+
+        const toggleNavigationIcon = (navToggler) => {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('toggled');
+            navToggler.classList.toggle('toggled');
+        }
+    </script>
+    <title>Contact</title>
+</head>
+
+<body class="contact">
+    <div class="container-fluid ">
+        <div class="container">
+            <div class="row">
+                <div class="col-5 logo">
+                    <a href="./HOMEPAGE.html">
+                        <p>Lightly</p>
+                    </a>
+                </div>
+                <div class="col-7">
+                    <div class="row align-items-right">
+                        <div class="nav-links">
+                            <ul>
+                                <li class="text">
+                                    <a href="./shop.html">SHOP</a>
+                                </li>
+                                <li class="text">
+                                    <a href="./over.html">ABOUT</a>
+                                </li>
+                                <li class="text">
+                                    <a href="./contact.html">CONTACT</a>
+                                </li>
+                                <li class="text">
+                                    <a href="./faqs.html">FAQs</a>
+                                </li>
+                                <li class="icons">
+                                    <a href="./account.html">
+                                        <i class="icon-header" id="account"> <img src="images/account.png"
+                                                alt="account"> </i>
+                                    </a>
+                                </li>
+                                <li class="icons">
+                                    <a href="./zoeken.html">
+                                        <i class="icon-header" id="search"> <img src="images/search.png"
+                                                alt="search"></i>
+                                    </a>
+                                </li>
+                                <li class="icons">
+                                    <a href="./leeg.html">
+                                        <i class="icon-header" id="winkelwagen"> <img src="images/shop.png"
+                                                alt="winkelwagen"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="nav-toggler" onclick="toggleNavigationIcon(this)">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="row main-title-contact-center">
+                <div class="col-8 col-md-6 col-lg-6 main-title-contact">
+                    <h1>Contact us</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-9 titel-vragen-contact">
+                    <h3>Heb je vragen?</h3>
+                    <div class="row">
+                        <div class="col-12 text-vragen-contact">
+                            <p>Aarzel niet om ons te contacteren via onderstaand contactformulier.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 col-lg-3 adres-title-contact-1">
+                    <h3>Adres</h3>
+                    <div class="row">
+                        <div class="col-12 col-md-12 col-lg-12 adres-contact">
+                            <p>Wij zijn gevestigd op:
+                                <br><br>
+                                Slekkebeek 72 - 923 Wetteren
+                                België</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 form-contact">
+                    <div class="row first-line ">
+                        <div class="col-12 col-md-4 col-lg-4 form-voornaam">
+                            <form action="#">
+                                <div class="form-control-voornaam">
+                                    <input type="text" placeholder="Voornaam">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 form-achternaam">
+                            <form action="#">
+                                <div class="form-control-achternaam">
+                                    <input type="text" placeholder="Achternaam">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4 form-email">
+                            <form action="#">
+                                <div class="form-control-email">
+                                    <input type="email" placeholder="E-mail">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4 form-onderwerp">
+                            <form action="#">
+                                <div class="form-control-onderwerp">
+                                    <input type="text" placeholder="Onderwerp">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4 form-onderwerp">
+                            <form action="#">
+                                <div class="form-control-bericht">
+                                    <textarea cols="43" rows="10" placeholder="Bericht"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 form-versturen">
+                            <form action="contact.html">
+                                <input type="submit" value="VERSTUREN" />
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3 adres-title-contact-2 ">
+                            <h3>Adres</h3>
+                            <div class="row">
+                                <div class="col-12 adres-contact">
+                                    <p>Wij zijn gevestigd op:
+                                        <br><br>
+                                        Slekkebeek 72 - 923 Wetteren
+                                        België</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer-shop">
+        <div class="container">
+            <div class="row titles-footer ">
+                <div class="col-12 col-md-4 col-lg-4 logo-footer">
+                    <a class="logo-back" href="./HOMEPAGE.html">
+                        <h2>Lightly</h2>
+                    </a>
+                    <div class="row adress-footer">
+                        <div class="col-12 adress-footer-text">
+                            <p>NV - Slekkebeek 72 - 9230 Wetteren
+                                +32499743594
+                                nicoverm@student.arteveldehs.be
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 volg-ons-footer">
+                    <h2>Volg ons</h2>
+                    <div class="row">
+                        <div class="col-3 col-md-4 col-lg-6 facebook">
+                            <a href="https://www.facebook.com/nicola.vermeersch">
+                                <i class="icon-facebook"> <img src="images/facebook.png" alt="fb"> </i>
+                            </a>
+                        </div>
+                        <div class="col-3 col-md-4 col-lg-6 instagram">
+                            <a href="https://www.instagram.com/nicolavermeersch/">
+                                <i class="icon-instagram"> <img src="images/instagram.png" alt="ig"> </i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 klantenservice-footer">
+                    <h2>Klantenservice</h2>
+                    <div class="row">
+                        <div class="col-12">
+                            <a href="over.html">
+                                <p>Over ons</p>
+                            </a>
+                            <a href="faqs.html">
+                                <p>FAQs</p>
+                            </a>
+                            <a href="contact.html">
+                                <p>Contact</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
