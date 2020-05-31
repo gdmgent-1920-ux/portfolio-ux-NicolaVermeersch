@@ -1,0 +1,17 @@
+/**
+ * Variables
+ */
+
+ :root {
+    --color-form: #B5B5B5;
+    --color-black: #333333;
+    --color-white: #FFFFFF;
+    --color-darkgrey: #707070;
+    --color-lightgrey: #ECECEC;
+    --color-midgrey: #DADADA;
+    --color-background: #F8F8F8;
+    --color-yellow: #FFED65;
+    --color-black-error:#181818;
+  
+    --text-font: 'TT Commons', 'light';
+  }
